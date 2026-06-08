@@ -32,6 +32,8 @@
   <defaultPresentation>AsDescription</defaultPresentation>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
+  <dependenceOnCalculationTypes>DontUse</dependenceOnCalculationTypes>
+  <actionPeriodUse>true</actionPeriodUse>
   <predefined>
     <items id="a8e47f81-8f0d-43a9-a4cb-b5a5ed04d936">
       <name>ВКМ_ФиксированнаяПремия</name>

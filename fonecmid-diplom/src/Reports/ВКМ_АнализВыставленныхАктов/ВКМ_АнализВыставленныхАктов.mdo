@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="040cf9c3-278d-40a5-8e54-70f842c53c9e">
+  <producedTypes>
+    <objectType typeId="2e8bfa92-8613-4c6b-ac13-6f5a1009e6a2" valueTypeId="a40a1cfd-8eb4-4541-86cd-5204cb0b16b8"/>
+    <managerType typeId="3b6e2421-9c43-4d8e-9ffe-f2b562dec911" valueTypeId="a5286912-4253-41d7-96f5-6f26b0827cb3"/>
+  </producedTypes>
+  <name>ВКМ_АнализВыставленныхАктов</name>
+  <synonym>
+    <key>ru</key>
+    <value>ВКМ анализ выставленных актов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.ВКМ_АнализВыставленныхАктов.Template.Макет</mainDataCompositionSchema>
+  <templates uuid="c0ad598a-7c1a-4a15-9a5e-d685ecc2b854">
+    <name>Макет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

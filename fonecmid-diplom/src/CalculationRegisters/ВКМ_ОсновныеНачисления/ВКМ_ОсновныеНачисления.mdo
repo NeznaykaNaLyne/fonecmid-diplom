@@ -16,6 +16,11 @@
   </synonym>
   <useStandardCommands>true</useStandardCommands>
   <periodicity>Month</periodicity>
+  <actionPeriod>true</actionPeriod>
+  <basePeriod>true</basePeriod>
+  <schedule>InformationRegister.ВКМ_Календарь</schedule>
+  <scheduleValue>InformationRegister.ВКМ_Календарь.Resource.РабочийДень</scheduleValue>
+  <scheduleDate>InformationRegister.ВКМ_Календарь.Dimension.Дата</scheduleDate>
   <chartOfCalculationTypes>ChartOfCalculationTypes.ВКМ_ОсновныеНачисления</chartOfCalculationTypes>
   <dataLockControlMode>Managed</dataLockControlMode>
   <resources uuid="82c5775f-8d5a-4aba-bae2-1e83bc31e96a">

@@ -25,6 +25,10 @@
   <createOnInput>DontUse</createOnInput>
   <dataLockControlMode>Managed</dataLockControlMode>
   <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>ОсновныеНачисления</value>
+  </objectPresentation>
   <codeLength>9</codeLength>
   <descriptionLength>40</descriptionLength>
   <codeType>String</codeType>
@@ -32,6 +36,7 @@
   <defaultPresentation>AsDescription</defaultPresentation>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
+  <actionPeriodUse>true</actionPeriodUse>
   <predefined>
     <items id="853b42ff-6633-4cd9-bd1b-398248d94813">
       <name>ВКМ_Оклад</name>

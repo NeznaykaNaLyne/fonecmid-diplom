@@ -13,7 +13,8 @@
   <content>Document.ВКМ_ОбслуживаниеКлиента</content>
   <content>AccumulationRegister.ВКМ_ВыполненныеКлиентуРаботы</content>
   <content>Catalog.ВКМ_УведомленияТелеграмБоту</content>
-  <content>DataProcessor.МассовоеСозданиеАктов</content>
+  <content>DataProcessor.ВКМ_НачальноеЗаполнениеДанных</content>
+  <content>DataProcessor.ВКМ_МассовоеСозданиеАктов</content>
   <content>Document.ВКМ_НачислениеЗаработнойПлаты</content>
   <content>Document.ВКМ_НачислениеФиксированнойПремии</content>
   <content>Document.ВКМ_ВыплатаЗаработнойПлаты</content>
@@ -22,10 +23,15 @@
   <content>ChartOfCalculationTypes.ВКМ_ДополнительныеНачисления</content>
   <content>ChartOfCalculationTypes.ВКМ_Удержания</content>
   <content>InformationRegister.ВКМ_УсловияОплатыСотрудников</content>
+  <content>InformationRegister.ВКМ_Календарь</content>
+  <content>CommonModule.ВКМ_РасчетЗарплаты</content>
   <content>AccumulationRegister.ВКМ_ВыполненныеСотрудникомРаботы</content>
   <content>AccumulationRegister.ВКМ_ВзаиморасчетыССотрудниками</content>
   <content>CalculationRegister.ВКМ_ОсновныеНачисления</content>
   <content>CalculationRegister.ВКМ_ДополнительныеНачисления</content>
   <content>CalculationRegister.ВКМ_Удержания</content>
+  <content>Report.ВКМ_АнализВыставленныхАктов</content>
+  <content>Report.ВКМ_РасчетыССотрудниками</content>
+  <content>Report.ВКМ_РасходЗапланированныхОтпусков</content>
   <subsystems>ВКМ_ОбслуживаниеКлиентов</subsystems>
 </mdclass:Subsystem>

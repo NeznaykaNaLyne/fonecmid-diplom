@@ -33,10 +33,10 @@
   <postInPrivilegedMode>true</postInPrivilegedMode>
   <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
   <attributes uuid="ca7e0640-a14d-4803-9182-721a42ac7681">
-    <name>ВКМ_МесяцНачисления</name>
+    <name>МесяцНачисления</name>
     <synonym>
       <key>ru</key>
-      <value>ВКМ месяц начисления</value>
+      <value>Месяц начисления</value>
     </synonym>
     <type>
       <types>Date</types>

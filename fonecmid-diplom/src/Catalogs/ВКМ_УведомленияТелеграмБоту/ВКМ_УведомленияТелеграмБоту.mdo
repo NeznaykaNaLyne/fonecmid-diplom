@@ -34,7 +34,7 @@
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
   <attributes uuid="5d493930-595d-4d10-90d2-f7b542f1a888">
-    <name>ВКМ_ТекстСообщения</name>
+    <name>ТекстСообщения</name>
     <synonym>
       <key>ru</key>
       <value>ВКМ текст сообщения</value>

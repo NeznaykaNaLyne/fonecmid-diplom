@@ -4,13 +4,13 @@
     <objectType typeId="c1e23f61-dad7-4ca4-a7c2-62fa6cba204c" valueTypeId="1d50b5b3-1e86-4731-aef0-8f6d1931b464"/>
     <managerType typeId="fe33935a-74ac-45bd-a7dd-3b3980f3b4e7" valueTypeId="ee0972f7-22ab-468f-a1fe-d0a3511e9198"/>
   </producedTypes>
-  <name>МассовоеСозданиеАктов</name>
+  <name>ВКМ_МассовоеСозданиеАктов</name>
   <synonym>
     <key>ru</key>
     <value>ВКМ_Массовое создание актов</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
-  <defaultForm>DataProcessor.МассовоеСозданиеАктов.Form.Форма</defaultForm>
+  <defaultForm>DataProcessor.ВКМ_МассовоеСозданиеАктов.Form.Форма</defaultForm>
   <attributes uuid="34aa5a5c-a1e0-4aa7-86b7-4f869d0be00b">
     <name>Период</name>
     <synonym>

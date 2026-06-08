@@ -18,10 +18,10 @@
   <dataLockControlMode>Managed</dataLockControlMode>
   <enableTotalsSplitting>true</enableTotalsSplitting>
   <resources uuid="236db47e-594d-4567-b6dc-a1d01af21623">
-    <name>ВКМ_ЧасовКОплате</name>
+    <name>ЧасовКОплате</name>
     <synonym>
       <key>ru</key>
-      <value>ВКМ часов к оплате</value>
+      <value>Часов к оплате</value>
     </synonym>
     <type>
       <types>Number</types>
@@ -35,10 +35,10 @@
     <fullTextSearch>Use</fullTextSearch>
   </resources>
   <resources uuid="b472bfc3-dea1-415b-a99f-ce319fbac810">
-    <name>ВКМ_СуммаКОплате</name>
+    <name>СуммаКОплате</name>
     <synonym>
       <key>ru</key>
-      <value>ВКМ сумма к оплате</value>
+      <value>Сумма к оплате</value>
     </synonym>
     <type>
       <types>Number</types>

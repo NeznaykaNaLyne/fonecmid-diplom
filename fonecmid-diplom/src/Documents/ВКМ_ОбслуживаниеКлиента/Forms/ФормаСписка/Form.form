@@ -121,7 +121,7 @@
       </extInfo>
     </items>
     <items xsi:type="form:FormField">
-      <name>ВКМ_Клиент</name>
+      <name>Клиент</name>
       <id>22</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -129,10 +129,10 @@
         <common>true</common>
       </userVisible>
       <dataPath xsi:type="form:DataPath">
-        <segments>Список.ВКМ_Клиент</segments>
+        <segments>Список.Клиент</segments>
       </dataPath>
       <extendedTooltip>
-        <name>ВКМ_КлиентРасширеннаяПодсказка</name>
+        <name>КлиентРасширеннаяПодсказка</name>
         <id>24</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
@@ -142,7 +142,7 @@
         </extInfo>
       </extendedTooltip>
       <contextMenu>
-        <name>ВКМ_КлиентКонтекстноеМеню</name>
+        <name>КлиентКонтекстноеМеню</name>
         <id>23</id>
         <autoFill>true</autoFill>
       </contextMenu>
@@ -157,7 +157,7 @@
       </extInfo>
     </items>
     <items xsi:type="form:FormField">
-      <name>ВКМ_Договор</name>
+      <name>Договор</name>
       <id>25</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -165,10 +165,10 @@
         <common>true</common>
       </userVisible>
       <dataPath xsi:type="form:DataPath">
-        <segments>Список.ВКМ_Договор</segments>
+        <segments>Список.Договор</segments>
       </dataPath>
       <extendedTooltip>
-        <name>ВКМ_ДоговорРасширеннаяПодсказка</name>
+        <name>ДоговорРасширеннаяПодсказка</name>
         <id>27</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
@@ -178,7 +178,7 @@
         </extInfo>
       </extendedTooltip>
       <contextMenu>
-        <name>ВКМ_ДоговорКонтекстноеМеню</name>
+        <name>ДоговорКонтекстноеМеню</name>
         <id>26</id>
         <autoFill>true</autoFill>
       </contextMenu>
@@ -193,7 +193,7 @@
       </extInfo>
     </items>
     <items xsi:type="form:FormField">
-      <name>ВКМ_Комментарий</name>
+      <name>Комментарий</name>
       <id>28</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -201,10 +201,10 @@
         <common>true</common>
       </userVisible>
       <dataPath xsi:type="form:DataPath">
-        <segments>Список.ВКМ_Комментарий</segments>
+        <segments>Список.Комментарий</segments>
       </dataPath>
       <extendedTooltip>
-        <name>ВКМ_КомментарийРасширеннаяПодсказка</name>
+        <name>КомментарийРасширеннаяПодсказка</name>
         <id>30</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
@@ -214,7 +214,7 @@
         </extInfo>
       </extendedTooltip>
       <contextMenu>
-        <name>ВКМ_КомментарийКонтекстноеМеню</name>
+        <name>КомментарийКонтекстноеМеню</name>
         <id>29</id>
         <autoFill>true</autoFill>
       </contextMenu>
