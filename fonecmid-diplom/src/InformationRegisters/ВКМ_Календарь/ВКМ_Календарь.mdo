@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4c8f9e12-3a5b-4d6e-8f90-1a2b3c4d5e6f">
+  <producedTypes>
+    <selectionType typeId="b1c2d3e4-f5a6-4789-b012-3456789abcde" valueTypeId="c2d3e4f5-a6b7-4890-c123-456789abcdef"/>
+    <listType typeId="d3e4f5a6-b7c8-4901-d234-56789abcdef0" valueTypeId="e4f5a6b7-c8d9-4012-e345-6789abcdef01"/>
+    <managerType typeId="f5a6b7c8-d9e0-4123-f456-789abcdef012" valueTypeId="a6b7c8d9-e0f1-4234-a567-89abcdef0123"/>
+    <recordSetType typeId="b7c8d9e0-f1a2-4345-b678-9abcdef01234" valueTypeId="c8d9e0f1-a2b3-4456-c789-abcdef012345"/>
+    <recordKeyType typeId="d9e0f1a2-b3c4-4567-d890-bcdef0123456" valueTypeId="e0f1a2b3-c4d5-4678-e901-cdef01234567"/>
+    <recordType typeId="f1a2b3c4-d5e6-4789-f012-def012345678" valueTypeId="a2b3c4d5-e6f7-4890-a123-ef0123456789"/>
+    <recordManagerType typeId="b3c4d5e6-f7a8-4901-b234-f01234567890" valueTypeId="c4d5e6f7-a8b9-4012-c345-012345678901"/>
+  </producedTypes>
+  <name>ВКМ_Календарь</name>
+  <synonym>
+    <key>ru</key>
+    <value>ВКМ календарь</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <informationRegisterPeriodicity>Nonperiodical</informationRegisterPeriodicity>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="e5f6a7b8-c9d0-4123-e456-123456789abc">
+    <name>РабочийДень</name>
+    <synonym>
+      <key>ru</key>
+      <value>Рабочий день</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>1</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="f6a7b8c9-d0e1-4234-f567-23456789abcd">
+    <name>Дата</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

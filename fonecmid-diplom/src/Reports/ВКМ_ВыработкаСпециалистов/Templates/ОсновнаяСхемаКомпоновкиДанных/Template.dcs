@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <DataCompositionSchema xmlns="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcscom="http://v8.1c.ru/8.1/data-composition-system/common" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 	<dataSource>
 		<name>ИсточникДанных1</name>
@@ -46,6 +46,7 @@
 				<v8:DateFractions>DateTime</v8:DateFractions>
 			</v8:DateQualifiers>
 		</valueType>
+		<value xsi:nil="true"/>
 		<useRestriction>true</useRestriction>
 		<expression>&amp;Период.ДатаНачала</expression>
 		<availableAsField>false</availableAsField>
@@ -64,6 +65,7 @@
 				<v8:DateFractions>DateTime</v8:DateFractions>
 			</v8:DateQualifiers>
 		</valueType>
+		<value xsi:nil="true"/>
 		<useRestriction>true</useRestriction>
 		<expression>&amp;Период.ДатаОкончания</expression>
 		<availableAsField>false</availableAsField>
@@ -81,6 +83,8 @@
 		</valueType>
 		<value xsi:type="v8:StandardPeriod">
 			<v8:variant xsi:type="v8:StandardPeriodVariant">Custom</v8:variant>
+			<v8:startDate>0001-01-01T00:00:00</v8:startDate>
+			<v8:endDate>0001-01-01T00:00:00</v8:endDate>
 		</value>
 		<useRestriction>false</useRestriction>
 		<valueListAllowed>true</valueListAllowed>
@@ -123,23 +127,25 @@
 				<dcsset:item xsi:type="dcsset:FilterItemComparison">
 					<dcsset:left xsi:type="dcscor:Field">Сотрудник</dcsset:left>
 					<dcsset:comparisonType>Equal</dcsset:comparisonType>
-					<dcsset:right xsi:nil="true"/>
 					<dcsset:userSettingID>72ebe106-dea9-4fb7-ad7f-bca1f6d227c3</dcsset:userSettingID>
 				</dcsset:item>
 			</dcsset:filter>
 			<dcsset:dataParameters>
 				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
 					<dcscor:parameter>Период</dcscor:parameter>
+					<dcscor:value xsi:nil="true"/>
 					<dcsset:userSettingID>545b8eb5-9eab-44a1-9a41-9f829731337f</dcsset:userSettingID>
 				</dcscor:item>
 				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
 					<dcscor:use>false</dcscor:use>
 					<dcscor:parameter>НачалоПериода</dcscor:parameter>
+					<dcscor:value xsi:nil="true"/>
 					<dcsset:userSettingID>78afec17-55f6-468a-ae4a-fa1c2d672de7</dcsset:userSettingID>
 				</dcscor:item>
 				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
 					<dcscor:use>false</dcscor:use>
 					<dcscor:parameter>КонецПериода</dcscor:parameter>
+					<dcscor:value xsi:nil="true"/>
 					<dcsset:userSettingID>d21d91d7-8d87-4570-a97f-4b3d6c90d725</dcsset:userSettingID>
 				</dcscor:item>
 			</dcsset:dataParameters>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <DataCompositionSchema xmlns="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcscom="http://v8.1c.ru/8.1/data-composition-system/common" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 	<dataSource>
 		<name>ИсточникДанных1</name>
@@ -137,6 +137,7 @@
 				<v8:DateFractions>DateTime</v8:DateFractions>
 			</v8:DateQualifiers>
 		</valueType>
+		<value xsi:nil="true"/>
 		<useRestriction>true</useRestriction>
 		<expression>&amp;Период.ДатаНачала</expression>
 		<availableAsField>false</availableAsField>
@@ -155,6 +156,7 @@
 				<v8:DateFractions>DateTime</v8:DateFractions>
 			</v8:DateQualifiers>
 		</valueType>
+		<value xsi:nil="true"/>
 		<useRestriction>true</useRestriction>
 		<expression>&amp;Период.ДатаОкончания</expression>
 		<availableAsField>false</availableAsField>
@@ -170,6 +172,7 @@
 		<valueType>
 			<v8:Type xmlns:d4p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d4p1:CatalogRef.Номенклатура</v8:Type>
 		</valueType>
+		<value xsi:nil="true"/>
 		<useRestriction>true</useRestriction>
 	</parameter>
 	<parameter>
@@ -183,6 +186,7 @@
 		<valueType>
 			<v8:Type xmlns:d4p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d4p1:CatalogRef.Номенклатура</v8:Type>
 		</valueType>
+		<value xsi:nil="true"/>
 		<useRestriction>true</useRestriction>
 	</parameter>
 	<settingsVariant>
@@ -234,13 +238,11 @@
 					<dcsset:use>false</dcsset:use>
 					<dcsset:left xsi:type="dcscor:Field">Клиент</dcsset:left>
 					<dcsset:comparisonType>Equal</dcsset:comparisonType>
-					<dcsset:right xsi:nil="true"/>
 				</dcsset:item>
 				<dcsset:item xsi:type="dcsset:FilterItemComparison">
 					<dcsset:use>false</dcsset:use>
 					<dcsset:left xsi:type="dcscor:Field">Договор</dcsset:left>
 					<dcsset:comparisonType>Equal</dcsset:comparisonType>
-					<dcsset:right xsi:nil="true"/>
 				</dcsset:item>
 			</dcsset:filter>
 			<dcsset:dataParameters>
@@ -257,6 +259,8 @@
 						<dcsset:field>Клиент</dcsset:field>
 						<dcsset:groupType>Items</dcsset:groupType>
 						<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+						<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
+						<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
 					</dcsset:item>
 				</dcsset:groupItems>
 				<dcsset:order>
