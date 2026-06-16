@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b7c8d9e0-f1a2-3456-7890-abcdef123456">
+  <producedTypes>
+    <selectionType typeId="c8d9e0f1-a2b3-4567-8901-bcdef1234567" valueTypeId="d9e0f1a2-b3c4-5678-9012-cdef12345678"/>
+    <listType typeId="e0f1a2b3-c4d5-6789-0123-def123456789" valueTypeId="f1a2b3c4-d5e6-7890-1234-ef1234567890"/>
+    <managerType typeId="a2b3c4d5-e6f7-8901-2345-f12345678901" valueTypeId="b3c4d5e6-f7a8-9012-3456-123456789012"/>
+    <recordSetType typeId="c4d5e6f7-a8b9-0123-4567-234567890123" valueTypeId="d5e6f7a8-b9c0-1234-5678-345678901234"/>
+    <recordKeyType typeId="e6f7a8b9-c0d1-2345-6789-456789012345" valueTypeId="f7a8b9c0-d1e2-3456-7890-567890123456"/>
+    <recordType typeId="a8b9c0d1-e2f3-4567-8901-678901234567" valueTypeId="b9c0d1e2-f3a4-5678-9012-789012345678"/>
+  </producedTypes>
+  <name>ВКМ_ДниОтпускаСотрудников</name>
+  <synonym>
+    <key>ru</key>
+    <value>ВКМ дни отпуска сотрудников</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <registerType>Turnovers</registerType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSplitting>true</enableTotalsSplitting>
+  <resources uuid="c0d1e2f3-a4b5-6789-0123-890123456789">
+    <name>КоличествоДней</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество дней</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <dimensions uuid="d1e2f3a4-b5c6-7890-1234-901234567890">
+    <name>Сотрудник</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сотрудник</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="e2f3a4b5-c6d7-8901-2345-012345678901">
+    <name>Год</name>
+    <synonym>
+      <key>ru</key>
+      <value>Год</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>4</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="f3a4b5c6-d7e8-9012-3456-123456789012">
+    <name>ВидУчетаОтпуска</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид учета отпуска</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ВКМ_ВидыУчетаОтпуска</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+</mdclass:AccumulationRegister>

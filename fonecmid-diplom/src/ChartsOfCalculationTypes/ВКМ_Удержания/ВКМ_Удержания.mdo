@@ -32,6 +32,9 @@
   <defaultPresentation>AsDescription</defaultPresentation>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
+  <dependenceOnCalculationTypes>OnActionPeriod</dependenceOnCalculationTypes>
+  <baseCalculationTypes>ChartOfCalculationTypes.ВКМ_ОсновныеНачисления</baseCalculationTypes>
+  <baseCalculationTypes>ChartOfCalculationTypes.ВКМ_ДополнительныеНачисления</baseCalculationTypes>
   <actionPeriodUse>true</actionPeriodUse>
   <predefined>
     <items id="2b027d2f-a38a-42b0-9c12-07afd8e513c6">
@@ -40,6 +43,22 @@
       <code xsi:type="core:StringValue">
         <value>001</value>
       </code>
+      <base>853b42ff-6633-4cd9-bd1b-398248d94813</base>
+      <base>2bc2251b-a96d-4f0f-b3d8-055b206d2e80</base>
+      <base>839b3af3-01bf-4fcb-b58d-6433160cec09</base>
+      <base>a8e47f81-8f0d-43a9-a4cb-b5a5ed04d936</base>
+      <base>ChartOfCalculationTypes.ВКМ_ДополнительныеНачисления.ВКМ_ФиксированнаяПремия</base>
+      <base>ChartOfCalculationTypes.ВКМ_ОсновныеНачисления.ВКМ_Отпускные</base>
+      <base>ChartOfCalculationTypes.ВКМ_ОсновныеНачисления.ВКМ_ПроцентОтРабот</base>
+      <base>ChartOfCalculationTypes.ВКМ_ОсновныеНачисления.ВКМ_Оклад</base>
+      <leading>853b42ff-6633-4cd9-bd1b-398248d94813</leading>
+      <leading>2bc2251b-a96d-4f0f-b3d8-055b206d2e80</leading>
+      <leading>839b3af3-01bf-4fcb-b58d-6433160cec09</leading>
+      <leading>a8e47f81-8f0d-43a9-a4cb-b5a5ed04d936</leading>
+      <leading>ChartOfCalculationTypes.ВКМ_ОсновныеНачисления.ВКМ_Оклад</leading>
+      <leading>ChartOfCalculationTypes.ВКМ_ОсновныеНачисления.ВКМ_ПроцентОтРабот</leading>
+      <leading>ChartOfCalculationTypes.ВКМ_ОсновныеНачисления.ВКМ_Отпускные</leading>
+      <leading>ChartOfCalculationTypes.ВКМ_ДополнительныеНачисления.ВКМ_ФиксированнаяПремия</leading>
     </items>
   </predefined>
 </mdclass:ChartOfCalculationTypes>

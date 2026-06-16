@@ -44,6 +44,10 @@
       <code xsi:type="core:StringValue">
         <value>001</value>
       </code>
+      <displaced>839b3af3-01bf-4fcb-b58d-6433160cec09</displaced>
+      <displaced>ChartOfCalculationTypes.ВКМ_ОсновныеНачисления.ВКМ_Отпускные</displaced>
+      <leading>839b3af3-01bf-4fcb-b58d-6433160cec09</leading>
+      <leading>ChartOfCalculationTypes.ВКМ_ОсновныеНачисления.ВКМ_Отпускные</leading>
     </items>
     <items id="2bc2251b-a96d-4f0f-b3d8-055b206d2e80">
       <name>ВКМ_ПроцентОтРабот</name>
