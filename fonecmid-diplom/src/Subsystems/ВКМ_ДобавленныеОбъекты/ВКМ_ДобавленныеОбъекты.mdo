@@ -15,7 +15,6 @@
   <content>Document.ВКМ_ОбслуживаниеКлиента</content>
   <content>AccumulationRegister.ВКМ_ВыполненныеКлиентуРаботы</content>
   <content>Catalog.ВКМ_УведомленияТелеграмБоту</content>
-  <content>DataProcessor.ВКМ_НачальноеЗаполнениеДанных</content>
   <content>DataProcessor.ВКМ_МассовоеСозданиеАктов</content>
   <content>Document.ВКМ_НачислениеЗаработнойПлаты</content>
   <content>Document.ВКМ_НачислениеФиксированнойПремии</content>
